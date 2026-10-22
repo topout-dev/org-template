@@ -1,0 +1,20 @@
+# Code owners for this repo. Every line below is commented out: replace @your-org/platform with a team
+# or user of your GitHub org, then uncomment the lines you want.
+#
+# GitHub enforces code owners only when a ruleset (or branch protection) on the default branch requires
+# a code owner's review. Without one, these lines only request reviews.
+#
+# A push to the default branch deploys, so own at least what decides how apps build and deploy:
+#
+# /.github/              @your-org/platform
+# /package.json          @your-org/platform
+# /pnpm-workspace.yaml   @your-org/platform
+# /pnpm-lock.yaml        @your-org/platform
+# /turbo.json            @your-org/platform
+# /.node-version         @your-org/platform
+# /CODEOWNERS            @your-org/platform
+# **/topout.config.ts    @your-org/platform
+#
+# Then each team's own apps, for example:
+#
+# /apps/billing/         @your-org/billing

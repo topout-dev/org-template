@@ -1,0 +1,15 @@
+packages:
+  - apps/*
+  - apps/*/*
+  - packages/*
+
+# Topout releases install as soon as they're out; any other package must be a day old.
+minimumReleaseAgeExclude:
+  - topout
+  - "@topout/sdk"
+minimumReleaseAgeStrict: true
+
+# Install scripts that never run: both binaries arrive through optionalDependencies.
+allowBuilds:
+  esbuild: false
+  workerd: false

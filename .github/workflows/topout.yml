@@ -1,0 +1,12 @@
+# Deploys this repo's apps to Topout. Don't edit: the logic is in topout-dev/actions, behind @v1.
+name: Topout
+on:
+  push:
+  workflow_dispatch:
+permissions: { id-token: write, contents: read }
+jobs:
+  deploy:
+    permissions: { id-token: write, contents: read }
+    uses: topout-dev/actions/.github/workflows/deploy.yml@v1
+    with:
+      api-url: ${{ vars.TOPOUT_API_URL }}
