@@ -50,6 +50,11 @@ this repo and no deploy token, then deploys from a second job that holds only th
 Topout accepts a deploy only from this file, on the default branch, calling a released version of that
 workflow, so an edit can stop your deploys. Changes reach you when Topout moves `@v1`.
 
+When `@v1` moves to a new CLI, each app in this repo redeploys on your next push, whether or not you
+changed it: the artifact changes with the CLI, so no app is "unchanged since" the last deploy. Each
+gets a new deployment with the same code and configuration, in the usual order (staging first on a
+staged app).
+
 ## If your org restricts GitHub Actions
 
 If your org's Actions policy allows only selected actions and reusable workflows, allowing
