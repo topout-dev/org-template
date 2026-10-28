@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       topout:
-        specifier: 1.0.0-alpha.6
-        version: 1.0.0-alpha.6
+        specifier: 1.0.0-alpha.7
+        version: 1.0.0-alpha.7
       turbo:
         specifier: 2.11.7
         version: 2.11.7
@@ -254,8 +254,8 @@ packages:
     resolution: {integrity: sha512-km9J3fomkGSLpImpelq0cMvLBrJ5eVlTzuWdG3Iy0laP6gU90MmHYjqhUhG32aYq0/0++r2TLuAA9xlnh4XU1g==}
     engines: {node: '>= 10'}
 
-  '@topout/sdk@1.0.0-alpha.6':
-    resolution: {integrity: sha512-mtxK1bJvu8xrUOhshUi892nrh1Ix3/CAZ4JBA3ko9162J3/o5LXK60gUFiloV3PW1TuKzhrcuY1vbGqZc/3XuA==}
+  '@topout/sdk@1.0.0-alpha.7':
+    resolution: {integrity: sha512-NFa3CIvXVJrTWJ4VTnyeGInSlpwdJGijVWqzKteoA6eXqC5k44N6eAX/p3yQPQi1lgShkCxd36KZE7SoR9FRuA==}
 
   '@turbo/darwin-64@2.11.7':
     resolution: {integrity: sha512-Z2LFOxwbiJueD1miByXJS/BrW21vv6YaQXZustty5jEX4vQYw6zyh101Sz1QO7WG0mqBzKagZ/DoAeeujI0/Sw==}
@@ -292,8 +292,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  topout@1.0.0-alpha.6:
-    resolution: {integrity: sha512-IOp4UFqlptFSweVetmtnCPGcHyYd1Z5JYz3X4RK3NsrMbVNmWz2DKQJ2EfIhuqRR7I7et7gdBH9ncNcHvmgMNw==}
+  topout@1.0.0-alpha.7:
+    resolution: {integrity: sha512-++Jg/Wb2BefT5Ri6eQS3q7/BYRSkxsZJiPUrymgA5xfi74X8JMoOoLjW/TerikFHMpQBKyw9tTuLKMdOaBGTSw==}
     engines: {node: '>=24'}
     hasBin: true
 
@@ -435,7 +435,7 @@ snapshots:
       '@napi-rs/keyring-win32-ia32-msvc': 2.1.0
       '@napi-rs/keyring-win32-x64-msvc': 2.1.0
 
-  '@topout/sdk@1.0.0-alpha.6':
+  '@topout/sdk@1.0.0-alpha.7':
     dependencies:
       zod: 4.6.5
 
@@ -486,10 +486,10 @@ snapshots:
       '@esbuild/win32-ia32': 0.28.2
       '@esbuild/win32-x64': 0.28.2
 
-  topout@1.0.0-alpha.6:
+  topout@1.0.0-alpha.7:
     dependencies:
       '@napi-rs/keyring': 2.1.0
-      '@topout/sdk': 1.0.0-alpha.6
+      '@topout/sdk': 1.0.0-alpha.7
       esbuild: 0.28.2
 
   turbo@2.11.7:
