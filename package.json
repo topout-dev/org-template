@@ -10,7 +10,7 @@
     "build": "turbo run build"
   },
   "devDependencies": {
-    "topout": "1.0.0-alpha.7",
+    "topout": "1.0.0-alpha.8",
     "turbo": "2.11.7"
   }
 }
