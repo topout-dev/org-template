@@ -18,8 +18,9 @@ pnpm topout github connect <owner>/<repo>
 It opens the Topout GitHub App's install page (install it on **this repo only**), then asks you to
 confirm in the browser and in the terminal.
 
-**Staging:** until production exists, every repo sets the repo variable `TOPOUT_API_URL` to the API it
-deploys to. `connect` sets it for you with the GitHub CLI, or prints the command:
+**The API:** a repo deploys to Topout's API with no setting. Only if `connect` says the repo needs the
+repo variable `TOPOUT_API_URL` (for an API other than Topout's own) does it set it for you with the GitHub
+CLI, or print the command:
 
 ```sh
 gh variable set TOPOUT_API_URL --body <api origin> -R <owner>/<repo>
